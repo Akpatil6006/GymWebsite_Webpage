@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Img/running\ woman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left img {
+    height: 70px;
+    width: auto;
+    margin: 13px 13px;
+    border-radius: 90px;
+}
+
+.center ul {
+    display: flex;
+}
+
+.center ul li {
+    list-style: none;
+}
+
+.center ul li a {
+    text-decoration: none;
+    margin: 8px;
+    color: #06283D;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.center ul li a:hover {
+    text-decoration: underline;
+    color: wheat;
+}
+
+.btn {
+    padding: 8px;
+    border: 2px solid wheat;
+    background: transparent;
+    color: wheat;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: wheat;
+    border: 2px solid transparent;
+    color: black;
+    font-weight: bold;
+}
+
+.btn1 {
+    margin: 23px;
+}
+
+.btn2 {
+    margin-right: 12px;
+}
+
+.btn3 {
+    padding: 3px;
+    margin: 3px;
+    width: 300px;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 70px 80px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-top: -15%;
+    margin-bottom: 5%;
+}
+
+.fgroup input {
+    /* text-align: center; */
+    width: 380px;
+    padding: 4px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.fgroup input:hover {
+    background: transparent;
+    border: 2px solid wheat;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
